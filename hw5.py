@@ -1,25 +1,3 @@
-###########################################
-
-#
-# 1. In this exercise we will make a "Patient" class
-#
-# The Patient class should store the state of
-# a patient in our hospital system.
-#
-#
-# 1.1)
-# Create a class called "Patient".
-# The constructor should have two parameters
-# (in addition to self, of course):
-#
-# 1. name (str)
-# 2. symptoms (list of str)
-#
-# the parameters should be stored as attributes
-# called "name" and "symptoms" respectively
-
-#Answer
-
 class Patient:
     """
     A class to represent a patient in the hospital system.
@@ -398,4 +376,3 @@ class Circle(PlaneFigure):
             The surface area of the circle.
         """
         return math.pi * (self.radius ** 2)
-
